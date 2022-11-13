@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Timer.MainPage">
+
+    <StackLayout>
+	    <Label x:Name="timer">0:00:00</Label>
+	  
+	    <Button Text="Start" Clicked="Start_Clicked"/>
+        <Button Text="Stop"  Clicked="Stop_Clicked"/>
+        <Button Text="Reset" Clicked="Reset_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
